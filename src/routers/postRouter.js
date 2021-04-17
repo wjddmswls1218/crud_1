@@ -9,6 +9,6 @@ const postRouter = express.Router();
 
 postRouter.get("/postList", postController);
 postRouter.get("/postCreate", postCreateController);
-postRouter.get("/postDelete/:id", postDetailController);
+postRouter.get("/postDetail/:id", postDetailController);
 
 export default postRouter;
